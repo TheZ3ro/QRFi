@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="8dp"
+        card_view:cardBackgroundColor="@android:color/white"
+        card_view:cardCornerRadius="@dimen/card_corner">
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/scrollView"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true">
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/container"
+                android:orientation="vertical"
+                android:padding="4dp"
+                android:paddingBottom="10dp">
+
+                <ImageView
+                    android:id="@+id/website_icon"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/qrcode"
+                    android:layout_centerHorizontal="true"
+                    android:contentDescription="@string/wifi_icon" />
+
+                <android.support.v7.widget.CardView
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/card_data"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    card_view:cardElevation="2dp"
+                    card_view:cardCornerRadius="0dp"
+                    android:layout_below="@+id/website_icon"
+                    android:layout_marginBottom="4dp"
+                    android:layout_marginTop="@dimen/margin_small"
+                    android:layout_marginLeft="@dimen/margin_small"
+                    android:layout_marginRight="@dimen/margin_small">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="12dp"
+                        android:paddingTop="12dp"
+                        android:paddingRight="12dp">
+
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/first"
+                            android:paddingBottom="7dp">
+
+                            <TextView
+                                android:id="@+id/textView"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/ssid"
+                                android:textSize="17sp"
+                                android:paddingEnd="20dp"
+                                android:paddingRight="20dp"
+                                tools:ignore="RtlSymmetry" />
+
+                            <EditText
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/edit_ssid"
+                                android:inputType="textNoSuggestions"
+                                android:singleLine="true"
+                                android:text="@string/default_ap" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/second"
+                            android:paddingBottom="14dp" >
+
+                            <TextView
+                                android:id="@+id/textView2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/pass"
+                                android:textSize="17sp"
+                                android:paddingEnd="20dp"
+                                android:paddingRight="20dp"
+                                tools:ignore="RtlSymmetry" />
+
+                            <EditText
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/edit_pass"
+                                android:inputType="textVisiblePassword"
+                                android:singleLine="true" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/third"
+                            android:paddingBottom="17dp">
+
+                            <TextView
+                                android:id="@+id/textView3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/key"
+                                android:textSize="17sp"
+                                android:paddingEnd="20dp"
+                                android:paddingRight="20dp"
+                                tools:ignore="RtlSymmetry" />
+
+                            <Spinner
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/wifi_type"
+                                android:paddingLeft="10dp"
+                                android:paddingStart="10dp"
+                                tools:ignore="RtlSymmetry" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/fourth"
+                            android:paddingBottom="7dp"
+                            android:layout_gravity="center">
+
+                            <Button
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/generate"
+                                android:id="@+id/generate"
+                                tools:ignore="ButtonStyle" />
+                            <Button
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/delete"
+                                android:id="@+id/delete"
+                                tools:ignore="ButtonStyle" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/card_qr"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    card_view:cardElevation="2dp"
+                    card_view:cardCornerRadius="0dp"
+                    android:layout_below="@+id/card_data"
+                    android:layout_marginTop="@dimen/margin_small"
+                    android:layout_marginBottom="@dimen/margin_small"
+                    android:layout_marginLeft="@dimen/margin_small"
+                    android:layout_marginRight="@dimen/margin_small">
+                    <RelativeLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:orientation="vertical"
+                        android:padding="4dp"
+                        android:paddingBottom="10dp">
+                        <Button
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/share"
+                            android:id="@+id/ok"
+                            android:layout_centerHorizontal="true" />
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/qrimage"
+                            android:contentDescription="@string/qr"
+                            android:layout_below="@id/ok"
+                            android:layout_centerHorizontal="true" />
+                    </RelativeLayout>
+                    </android.support.v7.widget.CardView>
+                </RelativeLayout>
+            </ScrollView>
+    </android.support.v7.widget.CardView>
+</FrameLayout>

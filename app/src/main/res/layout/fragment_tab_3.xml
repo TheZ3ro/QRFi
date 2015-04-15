@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:gravity="center_horizontal" >
+        <android.support.v7.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card_github"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            card_view:cardBackgroundColor="@color/cardview_initial_background"
+            card_view:cardElevation="2dp"
+            card_view:cardCornerRadius="0dp"
+            android:layout_marginTop="@dimen/margin_small"
+            android:layout_marginLeft="@dimen/margin_small"
+            android:layout_marginRight="@dimen/margin_small">
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selectable_background_cardbank"
+                android:gravity="center_vertical"
+                android:orientation="vertical"
+                android:padding="4dp" >
+
+                <ImageView
+                    android:id="@+id/github_icon"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/github"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    tools:ignore="ContentDescription,RtlHardcoded" />
+
+                <TextView
+                    android:id="@+id/github_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/github"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_toRightOf="@+id/github_icon"
+                    android:layout_toEndOf="@+id/github_icon"
+                    tools:ignore="RtlHardcoded" />
+
+                <TextView
+                    android:id="@+id/github_name"
+                    style="@style/CardText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:maxLines="4"
+                    android:text="@string/github_name"
+                    android:layout_below="@+id/github_label"
+                    android:layout_alignLeft="@+id/github_label"
+                    android:layout_alignStart="@+id/github_label"/>
+
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card_twitter"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            card_view:cardBackgroundColor="@color/cardview_initial_background"
+            card_view:cardElevation="2dp"
+            card_view:cardCornerRadius="0dp"
+            android:layout_marginTop="@dimen/margin_small"
+            android:layout_marginLeft="@dimen/margin_small"
+            android:layout_marginRight="@dimen/margin_small">
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selectable_background_cardbank"
+                android:gravity="center_vertical"
+                android:orientation="vertical"
+                android:padding="4dp" >
+
+                <ImageView
+                    android:id="@+id/twitter_icon"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/twitter"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    tools:ignore="ContentDescription,RtlHardcoded" />
+
+                <TextView
+                    android:id="@+id/twitter_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/twitter"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_toRightOf="@+id/twitter_icon"
+                    android:layout_toEndOf="@+id/twitter_icon"
+                    tools:ignore="RtlHardcoded" />
+
+                <TextView
+                    android:id="@+id/twitter_name"
+                    style="@style/CardText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:maxLines="4"
+                    android:text="@string/twitter_name"
+                    android:layout_below="@+id/twitter_label"
+                    android:layout_alignLeft="@+id/twitter_label"
+                    android:layout_alignStart="@+id/twitter_label"/>
+
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card_plus"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            card_view:cardBackgroundColor="@color/cardview_initial_background"
+            card_view:cardElevation="2dp"
+            card_view:cardCornerRadius="0dp"
+            android:layout_marginTop="@dimen/margin_small"
+            android:layout_marginLeft="@dimen/margin_small"
+            android:layout_marginRight="@dimen/margin_small">
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selectable_background_cardbank"
+                android:gravity="center_vertical"
+                android:orientation="vertical"
+                android:padding="4dp" >
+
+                <ImageView
+                    android:id="@+id/plus_icon"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/plus"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    tools:ignore="ContentDescription,RtlHardcoded" />
+
+                <TextView
+                    android:id="@+id/plus_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/plus"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_toRightOf="@+id/plus_icon"
+                    android:layout_toEndOf="@+id/plus_icon"
+                    tools:ignore="RtlHardcoded" />
+
+                <TextView
+                    android:id="@+id/plus_name"
+                    style="@style/CardText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:maxLines="4"
+                    android:text="@string/plus_name"
+                    android:layout_below="@+id/plus_label"
+                    android:layout_alignLeft="@+id/plus_label"
+                    android:layout_alignStart="@+id/plus_label"/>
+
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+</LinearLayout>

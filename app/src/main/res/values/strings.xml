@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Fast WiFi QR</string>
+    <string name="pstr">org.thezero.qrfi</string>
+
+    <string name="ssid">SSID:      </string>
+    <string name="pass">Password:       </string>
+    <string name="key">Key Type:       </string>
+
+    <string name="wifi_icon">WiFi Icon</string>
+    <string name="qr">QRCode</string>
+    <string name="qrmessage">"Place a QRCode inside the viewfinder to scan it \nAdjust the distance of your device if the QR is not detected"</string>
+
+    <string name="scan_activity">Scan QR</string>
+
+    <string name="share">Save/Send/Share</string>
+    <string name="send_to">Send QRCode</string>
+    <string name="connecting">"Connecting to "</string>
+    <string name="gallery">Open from Gallery</string>
+    <string name="flash">Toggle flash</string>
+    <string name="scan">Scan</string>
+    <string name="generate">Generate</string>
+    <string name="delete">Cancel</string>
+
+    <string name="error_share">Ops! An Error has occurred while sharing</string>
+    <string name="error_pass">Password must be at least 8 characters</string>
+    <string name="error_wifimanager">No WifiManager available from device</string>
+    <string name="error_decode">No valid QRCode found</string>
+    <string name="error_wifiqr">No valid WiFi QRCode found</string>
+    <string name="error_market">Could not open Play Store.</string>
+
+    <string name="default_ap">Android-AP</string>
+    <string name="tutorial">"Hello!\n\nWith Fast WiFi QR you can easily join WiFi trough QRCode.\n\nHow?\nStart by scanning a QRCode,\nOpen a QRCode image \nor Share a QRCode from another App :)"</string>
+
+    <string name="darth">Darth Vader!</string>
+    <string name="pirate">Pirate!</string>
+    <string name="license">License</string>
+    <string name="me">Me</string>
+    <string name="action_about">About</string>
+
+    <string name="about_content">"Fast WiFi QR by Davide \"TheZero\" Silvetti (io@thezero.org) 2015"</string>
+    <string name="about_source">"Source Code\nFeel Free, Be Free"</string>
+    <string name="about_rate">"Rate this app,\nThe developer will love you"</string>
+    <string name="about_nerd">"Try other app,\nThey don't bite"</string>
+    <string name="twitter">Twitter</string>
+    <string name="github">Github</string>
+    <string name="plus">Google+</string>
+
+    <string name="twitter_name">"@Th3Zer0"</string>
+    <string name="github_name">"@TheZ3ro"</string>
+    <string name="plus_name">+DavideTheZero</string>
+
+    <string name="l_licon">"Icon\n by @martz90"</string>
+    <string name="l_lfab">"zxing\n by @zxing"</string>
+    <string name="l_ltab1">"Android_Tabbed_Dialog\n by @kiteflo"</string>
+    <string name="l_ltab2">"PagerSlidingTabStrip\n by @jpardogo"</string>
+    <string name="l_ltab3">"zxingfragmentlib\n by @mitoyarzun"</string>
+
+</resources>

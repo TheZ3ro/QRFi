@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Fast WiFi QR</string>
+    <string name="pstr">org.thezero.qrfi</string>
+
+    <string name="ssid">SSID:      </string>
+    <string name="pass">Password:       </string>
+    <string name="key">Key Type:       </string>
+
+    <string name="wifi_icon">WiFi Icon</string>
+    <string name="qr">QRCode</string>
+    <string name="qrmessage">"Posiziona il QRCode dentro al mirino per la scansione \nRegola la distanza del dispositivo se il QR non viene rilevato"</string>
+
+    <string name="scan_activity">Scansiona QR</string>
+
+    <string name="share">Salva/Invia/Condividi</string>
+    <string name="send_to">Invia QRCode</string>
+    <string name="connecting">"Connessione a "</string>
+    <string name="gallery">Apri dalla Galleria</string>
+    <string name="flash">Interruttore flash</string>
+    <string name="scan">Scansiona</string>
+    <string name="generate">Genera</string>
+    <string name="delete">Cancella</string>
+
+    <string name="error_share">Ops! Si è verificato un errore durante la condivisione</string>
+    <string name="error_pass">La Password deve avere almeno 8 caratteri</string>
+    <string name="error_wifimanager">Nessun WifiManager disponibile sul dispositivo</string>
+    <string name="error_decode">Nessun QRCode valido trovato</string>
+    <string name="error_wifiqr">Nessun QRCode WiFi valido trovato</string>
+    <string name="error_market">Impossibile aprire il Play Store.</string>
+
+    <string name="default_ap">Android-AP</string>
+    <string name="tutorial">"Ciao!\n\nCon Fast WiFi QR tu puoi connetterti ad una WiFi tramite un QRCode.\n\nCome?\nInizia scansionando un QRCode,\nAprendo un immagine QRCode\nO Condividendo un QRCode da un altra App :)"</string>
+
+    <string name="darth">Darth Vader!</string>
+    <string name="pirate">Pirata!</string>
+    <string name="license">Licenze</string>
+    <string name="me">Io</string>
+    <string name="action_about">Informazioni</string>
+
+    <string name="about_content">"Fast WiFi QR by Davide \"TheZero\" Silvetti (io@thezero.org) 2015"</string>
+    <string name="about_source">"Source Code\nFeel Free, Be Free"</string>
+    <string name="about_rate">"Vota questa app,\nLo sviluppatore ti vorrà bene"</string>
+    <string name="about_nerd">"Prova altre app,\nNon mordono"</string>
+    <string name="twitter">Twitter</string>
+    <string name="github">Github</string>
+    <string name="plus">Google+</string>
+
+    <string name="twitter_name">"@Th3Zer0"</string>
+    <string name="github_name">"@TheZ3ro"</string>
+    <string name="plus_name">+DavideTheZero</string>
+
+    <string name="l_licon">"Icon\n by @martz90"</string>
+    <string name="l_lfab">"zxing\n by @zxing"</string>
+    <string name="l_ltab1">"Android_Tabbed_Dialog\n by @kiteflo"</string>
+    <string name="l_ltab2">"PagerSlidingTabStrip\n by @jpardogo"</string>
+    <string name="l_ltab3">"zxingfragmentlib\n by @mitoyarzun"</string>
+</resources>
